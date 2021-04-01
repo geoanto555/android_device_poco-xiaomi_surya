@@ -136,7 +136,4 @@ TW_DEVICE_VERSION := $(shell date -u +"%d-%m-%Y")
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone43/temp
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
-#Init
-TARGET_INIT_VENDOR_LIB := libinit_surya
-TARGET_RECOVERY_DEVICE_MODULES := libinit_surya
-TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
+
